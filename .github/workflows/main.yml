@@ -24,5 +24,4 @@ jobs:
 
     - name: Run tests
       run: |
-        cd .github/
         python -m pytest .github/workflows/addition.py
